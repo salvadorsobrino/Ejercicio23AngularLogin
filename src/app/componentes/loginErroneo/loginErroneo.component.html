@@ -1,0 +1,8 @@
+<div id="loginErroneo">
+  <p>Se ha producido un error:</p>
+  <span [hidden]="errorUsuarioOculto">El usuario no existe</span>
+  <span [hidden]="errorContraseniaOculto">La contraseña es incorrecta</span>
+  <span [hidden]="errorGenerico">El usuario o contraseña son incorrectos</span>
+  <br><br>
+  <button (click)="volver()">Volver</button>
+</div>
